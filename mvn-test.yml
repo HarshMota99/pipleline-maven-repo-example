@@ -29,7 +29,7 @@ pipelines:
           configFileLocation: .
           configFileName: mvn-art-config
           inputResources:
-            - name: project_example
+            - name: pipleline-maven-repo-example
           integrations:
             - name: art_integration
         execution:
