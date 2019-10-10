@@ -31,7 +31,7 @@ pipelines:
           inputResources:
             - name: project_example
           integrations:
-            - name: art
+            - name: art_integration
         execution:
           onStart:
             - _set_jdk openjdk8
