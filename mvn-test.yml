@@ -6,7 +6,7 @@ resources:
       buildName: mvn_example_build
       buildNumber: 2
       
-  - name: project_example
+  - name: pipleline-maven-repo-example
     type: GitRepo
     configuration:
       gitProvider: git_integration
